@@ -1,0 +1,14 @@
+{
+  "resourceName": "devStorage",
+  "policyUUID": "9ee709d5",
+  "bucketName": "audio-bucket69",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
