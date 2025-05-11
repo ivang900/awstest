@@ -1,0 +1,103 @@
+/* HomePage.css */
+
+/* Full-screen gradient background */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 50%, #b2ebf2 100%);
+  font-family: sans-serif;
+}
+
+/* Hero header */
+.hero {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #00695c;
+  margin: 0;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  color: #004d40;
+}
+
+/* Centered upload card */
+.upload-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.upload-card {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  border: 2px dashed #4dd0e1;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.upload-card:hover {
+  border-color: #26c6da;
+  transform: translateY(-5px);
+}
+
+/* Cloud upload icon style */
+.upload-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+  fill: none;
+  stroke: #26a69a;
+  stroke-width: 2;
+}
+
+/* File name or instructions text */
+.upload-text {
+  font-size: 1rem;
+  color: #00796b;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+/* Primary button */
+.upload-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(90deg, #26a69a, #00acc1);
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 9999px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.upload-button:hover {
+  background: linear-gradient(90deg, #00acc1, #26a69a);
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #004d40;
+  font-size: 0.875rem;
+}
