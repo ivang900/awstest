@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lecturelift-dev-8760c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891377001534:role/amplify-lecturelift-dev-8760c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891377001534:role/amplify-lecturelift-dev-8760c-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lecturelift-dev-8760c-deployment",
+      "UnauthRoleName": "amplify-lecturelift-dev-8760c-unauthRole",
+      "StackName": "amplify-lecturelift-dev-8760c",
+      "StackId": "arn:aws:cloudformation:us-east-1:891377001534:stack/amplify-lecturelift-dev-8760c/85876690-2e9a-11f0-b2a4-1210bf5eac99",
+      "AmplifyAppId": "d1yret3bsi83xk"
+    }
+  },
+  "auth": {
+    "lectureliftf4af5468": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  },
+  "function": {
+    "S3Trigger5c137db9": {
+      "service": "Lambda",
+      "providerPlugin": "awscloudformation",
+      "build": true
+    }
+  },
+  "storage": {
+    "devStorage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "lastPushTimeStamp": "2025-05-11T19:35:34.435Z"
+    }
+  }
+}

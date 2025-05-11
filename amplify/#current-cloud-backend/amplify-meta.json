@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lecturelift-dev-8760c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891377001534:role/amplify-lecturelift-dev-8760c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891377001534:role/amplify-lecturelift-dev-8760c-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lecturelift-dev-8760c-deployment",
+      "UnauthRoleName": "amplify-lecturelift-dev-8760c-unauthRole",
+      "StackName": "amplify-lecturelift-dev-8760c",
+      "StackId": "arn:aws:cloudformation:us-east-1:891377001534:stack/amplify-lecturelift-dev-8760c/85876690-2e9a-11f0-b2a4-1210bf5eac99",
+      "AmplifyAppId": "d1yret3bsi83xk"
+    }
+  }
+}
